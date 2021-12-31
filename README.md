@@ -40,7 +40,7 @@ E depois:
 
 ```sh
   # Abra pasta do projeto
-  $ cd deezer-App
+  $ cd src
   # Instale as dependencias
   $ yarn ou npm install
   # Rode a aplicação

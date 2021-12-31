@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Encontre sua música no Spotify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Aplicativo criado utilizando React com requisição na API do Spotify
 
-## Available Scripts
+## 📋 Requerimentos
 
-In the project directory, you can run:
+### Esse projeto consiste em criar um aplicativo de busca de músicas a partir da API do Spotify
 
-### `npm start`
+✔️ Criar uma tela de listagem de músicas ao concluir a busca;
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+✔️ Ao clicar no poster da música do card, deve ser direcionado a página oficial da música no Spotify;
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠 Tecnologias
 
-### `npm test`
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" width="20" height="16" /> React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="https://image.flaticon.com/icons/png/512/732/732212.png" width="20" height="16" /> HTML
 
-### `npm run build`
+<img src="https://www.pinclipart.com/picdir/middle/175-1759459_eng-a-med-kamel-frameworks-css-css-logo.png" width="20" height="18" /> CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png" width="16" height="16" /> &nbsp;Axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="https://www.kindpng.com/picc/m/67-678384_transparent-javascript-icon-png-png-download.png" width="16" height="16" /> &nbsp;JavaScript
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ▶️ Inicializando o projeto
 
-### `npm run eject`
+- ### **Pré-requisitos**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+  - **Node.js**;
+  - **Git**
+  - Gerenciador de pacotes **npm** ou **yarn**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Em seguida, clone o repositório
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```sh
+  $ git clone https://github.com/carlosael/find-your-music
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+E depois:
 
-## Learn More
+```sh
+  # Abra pasta do projeto
+  $ cd deezer-App
+  # Instale as dependencias
+  $ yarn ou npm install
+  # Rode a aplicação
+  $ yarn start ou npm run start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://i.imgur.com/IGS3tUy.gif" width="1000" height="500" />
